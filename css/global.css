@@ -1,0 +1,26 @@
+@import url(./normalize.css);
+@import url(./fonts.css);
+@import url(./root.css);
+html {
+  font-size: 62.5%;
+}
+ol,
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+body {
+  font-size: var(--body-fz);
+  line-height: var(--body-lh);
+  font-family: "Poppins";
+}
+.container {
+  width: 100%;
+  max-width: 136rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+}
